@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.header-container {
+.header__upper {
     background-color: #F8F8F8;
     width: 100%;
     height: 50px;
@@ -58,5 +58,109 @@
     font-size: 25px;
     text-align: center;
     line-height: 50px;
+}
+
+.header__lower {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.header__lower > img {
+    height: 50px;
+}
+
+.logo-short-container {
+    background-color: #F45555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-short-container img {
+    width: 50px;
+}
+
+.main-cover {
+    width: 100%;
+}
+
+.utensilios-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.utensilios-logo {
+    width: 100px;
+    height: auto;
+}
+
+.utensilios-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 0;
+    letter-spacing: 5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 30px 0
+}
+
+.utensilios-item-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.utensilios-item-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 111;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.75);
+    width: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(78, 78, 78)
+}
+
+.image-section-1 {
+    
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.image-section-2, .image-section-3, .image-section-4, .image-section-5 {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.image-section-6 {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 5%;
+}
+
+.image-section-7, .image-section-8, .image-section-9 {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 0%;
 }
 
